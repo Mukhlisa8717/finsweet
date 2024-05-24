@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+.posts{
+    margin-top: 57px;
+    margin-bottom: 91px;
+}
+
+.posts__list{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.post__item{
+    display: flex;
+    gap: 48px;
+}
+
+.post__item-cont{
+    display: flex;
+    width: 39%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post__item-cont h5{
+    color: rgb(89, 46, 169);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.post__item-cont h2{
+    color: rgb(35, 37, 54);
+    font-family: "Sen", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+    text-align: left;
+}
+
+.post__item-cont p{
+    color: rgb(109, 110, 118);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}

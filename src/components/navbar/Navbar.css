@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+header{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(35, 37, 54);
+    z-index: 1000;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px 0;
+    height: 80px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar__menu{
+    display: flex;
+    align-items: center;
+    grid-gap: 83px;
+}
+
+.link__list{
+    display: flex;
+    grid-gap: 24px;
+}
+
+.link__list a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.userName{
+    font-family: "Sen", sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.login__button{
+    padding: 16px 48px 16px 48px;
+    background: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    color: rgb(35, 37, 54);
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Sen", sans-serif;
+}

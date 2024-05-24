@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+.business{
+    background: #f4f0f7;
+    padding: 80px 0;
+}
+
+.business__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.business__title{
+    color: rgb(35, 37, 54);
+    font-family: "Sen", sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+}
+
+.business__text{
+    color: rgb(109, 110, 118);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+}
+
+.business__subtitle{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 16px;
+}
+
+.business__subtitle p{
+    color: rgb(35, 37, 54);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+}

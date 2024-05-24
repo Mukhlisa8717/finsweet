@@ -1,0 +1,21 @@
+footer{
+    background: rgb(35, 37, 54);
+    padding: 54px 80px;
+}
+
+.footer__cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__contacts{
+    color: rgb(109, 110, 118);
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.footer__social-wrapper{
+    display: flex;
+    gap: 26px;
+}

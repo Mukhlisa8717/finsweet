@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+.products{
+    margin-top: 333px;
+    padding-bottom: 66px;
+    border-bottom: 1px solid rgb(109, 110, 118);
+}
+
+.products__title{
+    color: rgb(0, 0, 0);
+    font-family: "Sen", sans-serif;
+    font-size: 36px;
+    letter-spacing: -2px;
+}
+
+.products__list{
+    display: flex;
+    gap: 32px;
+}
+
+.product__item{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.product__avtor{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.product__avtor span{
+    color: #6c46b3;
+}
+
+.product__title{
+    color: rgb(35, 37, 54);
+    font-family: "Sen", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.product__description{
+    color: #7d7f8a;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}

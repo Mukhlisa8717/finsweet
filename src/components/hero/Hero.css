@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+.hero {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: start;
+    height: 720px;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        radial-gradient(71.59% 72.01% at 75% 0%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6) 100%),
+        url("https://images.pexels.com/photos/3772622/pexels-photo-3772622.jpeg");
+    background-size: cover;
+    background-position: center;
+    transform: scaleX(-1);
+    z-index: -1;
+}
+
+.hero__info{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.hero__subtitle{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.hero__title{
+    font-family: "Sen", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 56px;
+}
+
+.hero__info p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+.author{
+    color: #f2c64e;
+    font-weight: 400;
+}
+
+.hero__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 214px;
+    height: 56px;
+    padding: 16px 48px 16px 48px;
+    background: rgb(255, 208, 80);
+    cursor: pointer;
+    border: none;
+    font-family: "Sen", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}

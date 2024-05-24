@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+.mision__vision{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(244, 240, 248);
+    padding: 83px 108px 109px 86px;
+    gap: 54px;
+}
+
+.mision__vision-item{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.mision__vision-item h5{
+    color: rgb(35, 37, 54);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.mision__vision-item h3{
+    color: rgb(35, 37, 54);
+    font-family: "Sen", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;
+    text-align: left;
+}
+
+.mision__vision-item p {
+    color: rgb(109, 110, 118);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
